@@ -38,28 +38,39 @@ body {
 
 li > a {
     color: #f9faf8;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .level-2 {
     display: flex;
     color: #f9faf8;
+    padding: 32px;
+    gap: 16px;
 
-    border: 2px solid green;
+    border: 2px solid yellow;
+}
+
+.left-content {
+    flex: 1;
+
+    /* border: 2px solid yellowgreen; */
 }
 
 .level-2  h1 {
     font-size: 48px;
 }
 
-.placeholder-image {
-    width: 400px;
-    height: 200px;
-    background-color: gray;
-    flex-shrink: 0;
+.intro {
+    color: #E5E7EB;
 }
 
 .sign-up-button {
-
+    color: #f9faf8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 8px 32px;
 }
 
 .body-container {
